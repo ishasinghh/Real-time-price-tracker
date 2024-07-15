@@ -2,7 +2,14 @@
 
 ## Overview
 
-Real-Time Price Tracker is a web application that allows you to track the real-time prices of various cryptocurrencies and stocks. It fetches data from a local API endpoint and displays the latest price records in a user-friendly interface.
+Real-Time Price Tracker is a web application designed to track real-time prices of cryptocurrencies and stocks. It utilizes Coingecko APIs to fetch stock/crypto prices. The application fetches data from a local API endpoint and displays the latest price records in an intuitive user interface. Additionally, it includes a pollingService that runs every 3 minutes to fetch and store the latest prices of 5 selected stock/crypto entries in MongoDB. Another API endpoint fetches the most recent 20 entries from MongoDB for specific stock/crypto prices.
+
+### Features
+
+- Track real-time prices of cryptocurrencies and stocks.
+- Fetch data using Coingecko APIs.
+- Store latest price records in MongoDB using pollingService.
+- Display most recent 20 entries for specific stock/crypto prices.
 
 ## Getting Started
 
