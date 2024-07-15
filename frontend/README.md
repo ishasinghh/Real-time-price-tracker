@@ -38,4 +38,4 @@ You can monitor real-time prices for various stocks and cryptocurrencies. To cha
 - `aapl` (Apple Inc.)
 - `tether` (Tether)
 
-Enjoy tracking real-time price data with our application!
+Enjoy tracking real-time price data with this application!
